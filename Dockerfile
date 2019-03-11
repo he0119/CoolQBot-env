@@ -1,4 +1,4 @@
-FROM richardchien/cqhttp:latest
+FROM richardchien/cqhttp:4.8.0
 #安装python3.6和pip, vim, tzdata
 RUN add-apt-repository ppa:jonathonf/python-3.6 \
     && apt-get update \
@@ -6,9 +6,6 @@ RUN add-apt-repository ppa:jonathonf/python-3.6 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists \
     && curl https://bootstrap.pypa.io/get-pip.py | python3.6
-#安装依赖
-COPY requirements.txt /home/user/coolqbot/requirements.txt
-RUN pip3.6 install -r /home/user/coolqbot/requirements.txt
 # 设置时区
 RUN ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && dpkg-reconfigure -f noninteractive tzdata
