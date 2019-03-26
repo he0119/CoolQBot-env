@@ -1,7 +1,7 @@
 FROM coolq/wine-coolq:v2.0.1
 
 # 添加 CoolQ HTTP API 插件
-ARG VER=4.8.0
+ARG VER=v4.8.0
 
 ADD https://github.com/richardchien/coolq-http-api/releases/download/${VER}/io.github.richardchien.coolqhttpapi.cpk /home/user/io.github.richardchien.coolqhttpapi.cpk
 ADD https://raw.githubusercontent.com/richardchien/coolq-http-api/master/docker/bootstrap.py /home/user/bootstrap.py
