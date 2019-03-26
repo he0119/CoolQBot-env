@@ -15,7 +15,8 @@ RUN add-apt-repository ppa:deadsnakes/ppa \
     && apt-get update \
     && apt-get install -y python3.7 vim \
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists
+    && rm -rf /var/lib/apt/lists \
+    && curl https://bootstrap.pypa.io/get-pip.py | python3.7
 
 # 设置环境变量
 ENV CQHTTP_SERVE_DATA_FILES=true \
