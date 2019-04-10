@@ -17,4 +17,4 @@ ENV CQHTTP_SERVE_DATA_FILES=true \
 COPY run_tests.sh /home/user
 
 # 运行测试
-RUN /home/user/run_tests.sh
+RUN su user -c ". /home/user/run_tests.sh"
