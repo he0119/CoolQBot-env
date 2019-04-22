@@ -6,4 +6,5 @@
 
 ## Version
 
-- CoolQ HTTP API: 4.9.0
+- CoolQ HTTP API: 4.10.0
+- Python 3.7
