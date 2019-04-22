@@ -19,6 +19,9 @@ jobs:
     imageName: 'coolqbot-env'
 
   steps:
+  - bash: docker build -f tests/Dockerfile tests/
+    displayName: 'test'
+
   - bash: echo '##vso[task.setvariable variable=imageTag]test'
     condition: eq(variables['Build.Reason'], 'PullRequest')
     displayName: 'set imageTag to test'
