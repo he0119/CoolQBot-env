@@ -48,7 +48,8 @@
 
 - 基于 `CoolQ` 和 `Python3.6` 的环境
 
-[Unreleased]: https://github.com/he0119/CoolQBot-env/compare/v0.2.2...HEAD
+[Unreleased]: https://github.com/he0119/CoolQBot-env/compare/v0.2.3...HEAD
+[0.2.3]: https://github.com/he0119/CoolQBot-env/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/he0119/CoolQBot-env/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/he0119/CoolQBot-env/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/he0119/CoolQBot-env/compare/v0.1.1...v0.2.0
