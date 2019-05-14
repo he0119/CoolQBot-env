@@ -12,7 +12,8 @@ RUN add-apt-repository ppa:deadsnakes/ppa \
 ENV CQHTTP_SERVE_DATA_FILES=true \
     CQHTTP_WS_REVERSE_API_URL=ws://127.0.0.1:8080/ws/api/ \
     CQHTTP_WS_REVERSE_EVENT_URL=ws://127.0.0.1:8080/ws/event/ \
-    CQHTTP_USE_WS_REVERSE=true
+    CQHTTP_USE_WS_REVERSE=true \
+    CQHTTP_SHOW_LOG_CONSOLE=false
 
 # 运行测试
 COPY run_tests.sh /home/user

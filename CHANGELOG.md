@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [0.2.3] - 2019-05-14
+
+### Changed
+
+- 升级至 `richardchien/cqhttp:4.10.1`
+- 不显示 `CQHTTP` 日志控制台
+
 ## [0.2.2] - 2019-04-22
 
 ### Added
