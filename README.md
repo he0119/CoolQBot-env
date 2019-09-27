@@ -6,5 +6,5 @@
 
 ## Version
 
-- CoolQ HTTP API: 4.10.1
+- [CoolQ HTTP API](https://hub.docker.com/r/richardchien/cqhttp): 4.11.0
 - Python 3.7
