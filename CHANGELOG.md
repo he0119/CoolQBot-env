@@ -4,6 +4,12 @@
 
 ## [Unreleased]
 
+## [0.2.4] - 2019-11-21
+
+### Changed
+
+- 升级至 `richardchien/cqhttp:4.12.3`
+
 ## [0.2.3] - 2019-05-14
 
 ### Changed
@@ -48,7 +54,8 @@
 
 - 基于 `CoolQ` 和 `Python3.6` 的环境
 
-[Unreleased]: https://github.com/he0119/CoolQBot-env/compare/v0.2.3...HEAD
+[Unreleased]: https://github.com/he0119/CoolQBot-env/compare/v0.2.4...HEAD
+[0.2.4]: https://github.com/he0119/CoolQBot-env/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/he0119/CoolQBot-env/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/he0119/CoolQBot-env/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/he0119/CoolQBot-env/compare/v0.2.0...v0.2.1

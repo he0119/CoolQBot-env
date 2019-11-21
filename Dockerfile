@@ -1,4 +1,4 @@
-FROM richardchien/cqhttp:4.11.0
+FROM richardchien/cqhttp:4.12.3
 
 # 安装 Python3.7 和 Vim
 RUN add-apt-repository ppa:deadsnakes/ppa \
